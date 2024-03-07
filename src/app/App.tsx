@@ -39,10 +39,42 @@ export default function App() {
         transition: 'background-color 0.3s ease 0s',
       }}
     >
-      <a href="https://apps.apple.com/app/palettegenius/id6472593276" target="_blank">
-        <img className={styles.appstore} src="https://jaywcjlove.github.io/sb/download/white-appstore.svg" />
+      {/*<a href="https://apps.apple.com/app/palettegenius/id6472593276" target="_blank">*/}
+      {/*  <img className={styles.appstore} src="https://jaywcjlove.github.io/sb/download/white-appstore.svg" />*/}
+      {/*</a>*/}
+      {/*<GitHubCorners fixed zIndex={999} size={60} target="__blank" href="https://github.com/uiwjs/ui-color" />*/}
+      {/*<a href="https://apps.apple.com/app/palettegenius/id6472593276" target="_blank">*/}
+      {/*  <img className={styles.appstore} src="https://jaywcjlove.github.io/sb/download/white-appstore.svg" />*/}
+      {/*</a>*/}
+      {/*<GitHubCorners fixed zIndex={999} size={60} target="__blank" href="https://github.com/xiaoming728/ui-color" />*/}
+      <a href="https://xiaoming728.com" target="_blank">
+        <div
+          style={{
+            position: 'fixed',
+            top: 0,
+            right: 0,
+            zIndex: 999,
+            width: '100px',
+            height: '100px',
+            clipPath: 'polygon(100% 0, 100% 100%, 0 0)',
+            overflow: 'hidden',
+            backgroundColor: 'black', // 将北京的颜色改为黑色
+          }}
+        >
+          <img
+            src="https://xiaoming728.com/upload/logo.jpg"
+            style={{
+              width: '30%',
+              height: '30%',
+              borderRadius: '50%', // 创建一个圆形图像
+              position: 'absolute',
+              top: '30%',
+              left: '70%',
+              transform: 'translate(-50%, -50%)', // 将图像移动到三角形的中间
+            }}
+          />
+        </div>
       </a>
-      <GitHubCorners fixed zIndex={999} size={60} target="__blank" href="https://github.com/uiwjs/ui-color" />
       <div className={styles.warpper}>
         <div className={styles.colors}>
           <div>
